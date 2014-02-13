@@ -1,0 +1,30 @@
+两款Adobe插件AutoOCR和TextExtraction
+
+AutoOCR  -  自动设置好参数，对PDF进行OCR处理，默认设置是[所有页面][CHS:中文
+(简体)]
+[ClearScan][600dpi]
+TextExtraction  -  将OCR后的文本输出到c:\outputfiles目录里，包括txt和doc文
+件。
+
+这2个插件适合于批量处理PDF文件,调用方式很简单(不同语言会略有差别)：
+App.MenuItemExecute("ADBE:AutoOCR")
+App.MenuItemExecute("ADBE:TextExtraction")
+
+
+---------------------------------------------------------------------
+
+English Description:
+
+Adobe-plugins including AutoOCR and TextExtraction
+
+AutoOCR  -  auto setting parameter,[All pages][Primary OCR Language:Chinese(Simplified)][ClearScan][600dpi].
+
+TextExtraction  - save pdf as txt and doc,output to c:\outputfiles directory.
+
+This two plug-in suitable for batch processing PDF files, calling very simple way (in different languages ​​will be slightly different):
+App.MenuItemExecute("ADBE:AutoOCR")
+App.MenuItemExecute("ADBE:TextExtraction")
+
+
+
+
